@@ -1,0 +1,22 @@
+{
+  "name": "bubaew95/article-content-provider-bundle",
+  "description": "Генератор контента",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Волков Михаил",
+      "email": "mvsvolkov@mvsvolkov.ru",
+      "homepage": "https://mvsvolkov.ru",
+      "role": "Creator"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "CarCasCarSkillboxSymfony\\ArticleContentProviderBundle\\": "src"
+    }
+  }
+}
